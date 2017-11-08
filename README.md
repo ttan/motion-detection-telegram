@@ -5,12 +5,12 @@ I needed a surveillance system for my new house but I didn’t want to buy somet
 3. It’s **fun**.
 
 For this little home project I used:
-- Onion Omega2+ ($9.00)
-- Expansions header for Omega2+ ($15.00)
--  USB OTG UVC endoscope camera module with leds ($11.00)
+- [Onion Omega2+][1] ($9.00)
+- [Expansions header][2] for Omega2+ ($15.00)
+-  [USB OTG UVC endoscope camera][3] module with leds ($11.00)
 
 The project is composed of 3 scripts:
-- [Motion][1]: the software that monitors the webcam and takes pictures  when motion is detected. 
+- [Motion][4]: the software that monitors the webcam and takes pictures  when motion is detected. 
 - `motion.py`: the script triggered by the Motion’s parameter `on_motion_detected ` , that sends the last picture taken via Telegram to my self.
 - `engine.py`: the core of my script. This is the Telegram bot engine which controls the whole project.
 
@@ -25,4 +25,7 @@ The main script is running as daemon (you have to kill it manually when needed) 
 - `/sendlast` - *Send last picture taken by motion surveillance*: pictures are taken during the motion detection, the last one saved in the /pics folder is sent via Telegram
 - `/cleanpics` - *Delete all pictures taken by motion surveillance*: this delete all the `.jpg` files in the pics directory.  
 
-[1]:	https://github.com/Motion-Project/motion "Motion"
+[1]:	https://onion.io/store/omega2p/ "Onion Omega2+"
+[2]:	https://onion.io/store/expansion-dock/ "Expansions dock"
+[3]:	https://www.aliexpress.com/item/OTG-UVC-support-hd-endoscope-camera-module-Diameter-13mm-Linux-Android-Windows-MAC-with-LED-with/32761158688.html
+[4]:	https://github.com/Motion-Project/motion "Motion"
