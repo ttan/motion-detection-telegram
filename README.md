@@ -1,4 +1,9 @@
 # Motion detection Telegram integrated
+I needed a surveillance system for my new house but I didn’t want to buy something already assembled for three main reasons:
+1. They are incredibly **expensive**. For my project, I used things that I already had, but anyway still below $35.00
+2. They are deeply **insecure**: any IoT gadget can be hacked in a second and often they expose themselves over the Internet. Thanks to the Telegram bot system, my project is (almost) confined to the local network and has no open services (other than ssh).
+3. It’s **fun**.
+
 For this little home project I used:
 - Onion Omega2+ ($9.00)
 - Expansions header for Omega2+ ($15.00)
