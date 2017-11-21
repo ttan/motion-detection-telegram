@@ -4,6 +4,8 @@ I needed a surveillance system for my new house but I didn’t want to buy somet
 2. They are deeply **insecure**: any IoT gadget can be hacked in a second and often they expose themselves over the Internet. Thanks to the Telegram bot system, my project is (almost) confined to the local network and has no open services (other than ssh).
 3. It’s **fun**.
 
+![Starting the script](https://www.ttan.org/disk/engine.png)
+
 For this little home project I used:
 - [Onion Omega2+][1] ($9.00)
 - [Expansions header][2] for Omega2+ ($15.00)
